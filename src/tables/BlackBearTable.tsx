@@ -16,7 +16,7 @@ export function BlackBearTable() {
     district_square_mileage: number,
     public_land_percentage: number,
     harvested_males_per_square_mile: number,
-    harvested_females_per_square_mile: number,
+    harvested_female_per_square_mile: number,
     total_harvest_per_square_mile: number,
   }
 
@@ -61,7 +61,7 @@ export function BlackBearTable() {
           <td>{blackBear.district_square_mileage} square miles</td>
           <td>{blackBear.public_land_percentage}%</td>
           <td>{blackBear.harvested_males_per_square_mile}</td>
-          <td>{blackBear.harvested_females_per_square_mile}</td>
+          <td>{blackBear.harvested_female_per_square_mile}</td>
           <td>{blackBear.total_harvest_per_square_mile}</td>
         </tr>
       ))}
