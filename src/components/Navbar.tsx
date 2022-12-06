@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { Logout } from "./Logout";
 
 
 export function Navbar() {
@@ -33,6 +34,7 @@ export function Navbar() {
             </li>
           </ul>
         </div>
+        <Logout />
       </div>
     </nav>
   )
