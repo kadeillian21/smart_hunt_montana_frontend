@@ -1,5 +1,8 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import { Index } from './pages/Index'
+import { Navbar } from './components/Navbar'
+import { Charts } from './pages/Charts'
+import { Home } from './pages/Home'
+import { IndexTables } from './pages/IndexTables'
 import { AntelopeTable } from './tables/AntelopeTable'
 import { BlackBearTable } from './tables/BlackBearTable'
 import { ElkTable } from './tables/ElkTable'
@@ -17,8 +20,11 @@ function App() {
 
   return (
     <BrowserRouter>
+      <Navbar />
       <Routes>
-        <Route path="/" element={< Index/>} />
+        <Route path="/" element={< Home/>} />
+        <Route path="/species" element={< IndexTables/>} />
+        <Route path="/charts" element={< Charts/>} />
         <Route path="/antelope" element={< AntelopeTable/>}/>
         <Route path="/black_bear" element={< BlackBearTable/>}/>
         <Route path="/elk" element={< ElkTable/>}/>
