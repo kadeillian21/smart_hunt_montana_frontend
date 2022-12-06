@@ -28,7 +28,7 @@ function App() {
         <Route path="/turkey" element={< TurkeyTable/>}/>
         <Route path="/upland_game" element={< UplandGameTable/>}/>
         <Route path="/whitetail_deer" element={< WhitetailDeerTable/>}/>
-        <Route path="/wolves" element={< WolfTable/>}/>
+        <Route path="/wolf" element={< WolfTable/>}/>
       </Routes>
     </BrowserRouter>
   )

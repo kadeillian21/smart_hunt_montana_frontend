@@ -12,7 +12,6 @@ export function WolfTable() {
     total_harvest: number,
     location: string,
     district_square_mileage: number,
-    public_land_percentage: number,
     total_hunted_harvest_per_square_mile: number,
     total_trapped_harvest_per_square_mile: number,
     total_harvest_per_square_mile: number,
@@ -39,7 +38,6 @@ export function WolfTable() {
         <th>Total Harvest</th>
         <th>Location</th>
         <th>District Square Mileage</th>
-        <th>Public Land Percentage</th>
         <th>Total Hunted Harvest per Square Mile</th>
         <th>Total Trapped Harvest per Square Mile</th>
         <th>Total Harvest per Square Mile</th>
@@ -53,7 +51,6 @@ export function WolfTable() {
           <td>{wolf.total_harvest}</td>
           <td>{wolf.location}</td>
           <td>{wolf.district_square_mileage} square miles</td>
-          <td>{wolf.public_land_percentage}%</td>
           <td>{wolf.total_hunted_harvest_per_square_mile}</td>
           <td>{wolf.total_trapped_harvest_per_square_mile}</td>
           <td>{wolf.total_harvest_per_square_mile}</td>
