@@ -15,7 +15,7 @@ export function MountainLionTable() {
     district_square_mileage: number,
     public_land_percentage: number,
     harvested_males_per_square_mile: number,
-    harvested_females_per_square_mile: number,
+    harvested_female_per_square_mile: number,
     total_harvest_per_square_mile: number,
   }
 
@@ -58,7 +58,7 @@ export function MountainLionTable() {
           <td>{mountain_lion.district_square_mileage} square miles</td>
           <td>{mountain_lion.public_land_percentage}%</td>
           <td>{mountain_lion.harvested_males_per_square_mile}</td>
-          <td>{mountain_lion.harvested_females_per_square_mile}</td>
+          <td>{mountain_lion.harvested_female_per_square_mile}</td>
           <td>{mountain_lion.total_harvest_per_square_mile}</td>
         </tr>
       ))}

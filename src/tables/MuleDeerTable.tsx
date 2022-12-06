@@ -27,8 +27,8 @@ export function MuleDeerTable() {
     harvested_bucks_per_square_mile: number,
     harvested_does_per_square_mile: number,
     harvested_fawns_per_square_mile: number,
-    harvested_less_than_4_point_bucks_per_square_mile: number,
-    harvested_four_or_more_points_per_square_mile: number,
+    harvested_less_than_four_points_bucks_per_square_mile: number,
+    harvested_four_or_more_points_bucks_per_square_mile: number,
     total_harvest_per_square_mile: number,
   }
 
@@ -92,8 +92,8 @@ export function MuleDeerTable() {
           <td>{mule_deer.harvested_bucks_per_square_mile}</td>
           <td>{mule_deer.harvested_does_per_square_mile}</td>
           <td>{mule_deer.harvested_fawns_per_square_mile}</td>
-          <td>{mule_deer.harvested_less_than_4_point_bucks_per_square_mile}</td>
-          <td>{mule_deer.harvested_four_or_more_points_per_square_mile}</td>
+          <td>{mule_deer.harvested_less_than_four_points_bucks_per_square_mile}</td>
+          <td>{mule_deer.harvested_four_or_more_points_bucks_per_square_mile}</td>
           <td>{mule_deer.total_harvest_per_square_mile}</td>
         </tr>
       ))}
