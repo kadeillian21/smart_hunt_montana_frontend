@@ -1,11 +1,14 @@
-import { useState } from 'react'
-import './App.css'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { SpeciesTable } from './pages/SpeciesTable'
 
 function App() {
 
   return (
-    <div className="App">
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={< SpeciesTable/>}/>
+      </Routes>
+    </BrowserRouter>
   )
 }
 
