@@ -23,14 +23,14 @@ export function ElkTable() {
     location: string,
     district_square_mileage: number,
     public_land_percentage: number,
-    diy_hunting_maps_success_rate_for_twenty_one: number,
+    diy_hunting_maps_hunt_success_rate_for_twenty_one: number,
     harvested_bulls_per_square_mile: number,
     harvested_cows_per_square_mile: number,
     harvested_calves_per_square_mile: number,
     harvested_spiked_bulls_per_square_mile: number,
     harvested_six_or_more_point_bulls_per_square_mile: number,
     total_harvest_per_square_mile: number,
-    six_or_more_point_percentage: number,
+    six_or_more_points_percentage: number,
   }
 
   const [elks, setElks] = useState([]);
@@ -94,13 +94,13 @@ export function ElkTable() {
           <td>{elk.location}</td>
           <td>{elk.district_square_mileage}</td>
           <td>{elk.public_land_percentage}%</td>
-          <td>{elk.diy_hunting_maps_success_rate_for_twenty_one}%</td>
+          <td>{elk.diy_hunting_maps_hunt_success_rate_for_twenty_one}%</td>
           <td>{elk.harvested_bulls_per_square_mile}</td>
           <td>{elk.harvested_cows_per_square_mile}</td>
           <td>{elk.harvested_calves_per_square_mile}</td>
           <td>{elk.harvested_spiked_bulls_per_square_mile}</td>
           <td>{elk.harvested_six_or_more_point_bulls_per_square_mile}</td>
-          <td>{elk.six_or_more_point_percentage}%</td>
+          <td>{elk.six_or_more_points_percentage}%</td>
           <td>{elk.total_harvest_per_square_mile}</td>
         </tr>
       ))}

@@ -2,7 +2,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { Table } from "react-bootstrap";
 
-export function WolvesTable() {
+export function WolfTable() {
 
   type Wolf = {
     license_year: number,

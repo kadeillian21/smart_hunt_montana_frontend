@@ -51,6 +51,7 @@ export function BlackBearTable() {
       {blackBears.map((blackBear:BlackBear) => (
         <tr>
           <td>{blackBear.license_year}</td>
+          <td>{blackBear.season}</td>
           <td>{blackBear.district}</td>
           <td>{blackBear.residency}</td>
           <td>{blackBear.male}</td>
