@@ -1,4 +1,5 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { Index } from './pages/Index'
 import { AntelopeTable } from './tables/AntelopeTable'
 import { BlackBearTable } from './tables/BlackBearTable'
 import { ElkTable } from './tables/ElkTable'
@@ -17,6 +18,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
+        <Route path="/" element={< Index/>} />
         <Route path="/antelope" element={< AntelopeTable/>}/>
         <Route path="/black_bear" element={< BlackBearTable/>}/>
         <Route path="/elk" element={< ElkTable/>}/>
