@@ -2,7 +2,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { Table } from "react-bootstrap";
 
-export function SpeciesTable() {
+export function AntelopeTable() {
 
   type Antelope = {
     license_year: number,
@@ -69,8 +69,8 @@ export function SpeciesTable() {
           <td>{antelope.does}</td>
           <td>{antelope.fawns}</td>
           <td>{antelope.location}</td>
-          <td>{antelope.district_square_mileage}</td>
-          <td>{antelope.public_land_percentage}</td>
+          <td>{antelope.district_square_mileage} square miles</td>
+          <td>{antelope.public_land_percentage}%</td>
           <td>{antelope.harvested_bucks_per_square_mile}</td>
           <td>{antelope.harvested_does_per_square_mile}</td>
           <td>{antelope.harvested_fawns_per_square_mile}</td>

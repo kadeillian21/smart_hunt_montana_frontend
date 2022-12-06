@@ -1,12 +1,12 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import { SpeciesTable } from './pages/SpeciesTable'
+import { AntelopeTable } from './tables/AntelopeTable'
 
 function App() {
 
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={< SpeciesTable/>}/>
+        <Route path="/" element={< AntelopeTable/>}/>
       </Routes>
     </BrowserRouter>
   )
