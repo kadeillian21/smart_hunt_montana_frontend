@@ -21,7 +21,7 @@ export function UplandGameTable() {
 
   const handleIndexUplandGames = () => {
     console.log("handleIndexUplandGames");
-    axios.get("http://localhost:3000/upland_games.json").then((response) => {
+    axios.get("http://localhost:3000/upland_game.json").then((response) => {
       console.log(response.data);
       setUplandGames(response.data);
     });
