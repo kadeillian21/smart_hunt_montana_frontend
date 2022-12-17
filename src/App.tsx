@@ -28,7 +28,7 @@ function App() {
       ) : (
         <Routes>
           <Route path="/" element={< Home/>} />
-          <Route path="/species" element={< IndexTables/>} />
+          {/* <Route path="/species" element={< IndexTables/>} /> */}
           <Route path="/charts" element={< Charts/>} />
           <Route path="/antelope" element={< AntelopeTable/>}/>
           <Route path="/black_bear" element={< BlackBearTable/>}/>
